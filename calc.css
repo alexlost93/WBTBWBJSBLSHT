@@ -1,24 +1,24 @@
 .mainClass {
     width: 200px;
-    height: 150px;
-    /* min-height: 50px; */
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 #inputField {
-    width: 180px;
+    width: 100%;
+    height: 25px;
     border: 1px solid black;
     background-color: white;
-    margin: 10px;
+    margin-bottom: 15px
+    /* margin: 10px; */
 }
 
 .buttOn {
     border: 1px solid black;
-    width: 10px;
-    height: 10px;
-    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    font-size: 13px;
     text-align: center;
     position: absolute;
     top: 23px;
@@ -27,10 +27,13 @@
 
 .knopka {
     display: inline-block;
-    width: 25px;
+    width: 45px;
+    height: 25px;
     border: 1px solid purple;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align:center;
+    table-layout: auto;
+    margin-top: 5px;
     margin-bottom: 5px;
+    box-sizing: content-box;
+    font-size: large;
 }
