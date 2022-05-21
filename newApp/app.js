@@ -7,7 +7,7 @@
 
 let inputStr = document.getElementById('inputID');
 let btn = document.getElementById('btnID');
-let output = document.getElementById('textOutput');
+let output = document.getElementById('txtID');
 console.log(inputStr);
 console.log(btn);
 console.log(output);
