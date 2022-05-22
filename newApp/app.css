@@ -1,0 +1,16 @@
+/* //есть текст инпут
+// есть кнопка
+// есть окно результата
+// инпут принимает число, кнопка делает факториал числа и отдаёт в в окно
+ */
+.inputfield {
+    text-align: right;
+    font-size:  large;
+    margin-bottom: 15px;
+}
+
+.textOutput {
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
